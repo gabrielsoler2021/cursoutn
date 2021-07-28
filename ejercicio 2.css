@@ -1,0 +1,41 @@
+p{
+    font-style: italic; font-weight: bold;
+    color: darkorange;
+
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif; font-size: xx-large; text-decoration-line: underline;
+    text-align: center;
+    margin-top: 10px; margin-bottom: 10px;
+}
+
+.contenedor{
+    background-color: deepskyblue;
+    height: 90px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-items: center;
+    text-align: justify;
+    text-justify: auto;
+}
+
+.item{
+    background-color: floralwhite;
+    width: 21%;
+    margin-left: auto; margin-right: auto; margin-top: auto; margin-bottom: auto;
+    font-size-adjust: 15;;
+    font-stretch: ultra-expanded;
+    text-align: justify;
+    justify-content: space-evenly;
+}
+
+#fotocv{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+/*esta forma de centrar la imagen la saque con copy-paste desde https://www.w3schools.com/howto/howto_css_image_center.asp*/
+
